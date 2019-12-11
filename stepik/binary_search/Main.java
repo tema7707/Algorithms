@@ -18,7 +18,7 @@ class Main {
         int l = 0;
         int r = arr.length - 1;
         while (l <= r) {
-            int pivot = (r + l) / 2;
+            int pivot = l + (r - l) / 2;
             if (arr[pivot] == k) {
                 return pivot + 1;
             }
