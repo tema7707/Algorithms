@@ -24,6 +24,6 @@ All 1s are either on the boundary or can reach the boundary.
 ```
 
 #### My submission:
-Runtime: 4 ms, faster than **93.48%** of Java online submissions for Group the People Given the Group Size They Belong To.
-Memory Usage: 52.4 MB, less than **71.43%** of Java online submissions for Group the People Given the Group Size They Belong To.
+Runtime: 4 ms, faster than **93.48%** of Java online submissions for Number of Enclaves.
+Memory Usage: 52.4 MB, less than **71.43%** of Java online submissions for Number of Enclaves.
 

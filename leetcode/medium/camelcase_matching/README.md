@@ -25,6 +25,6 @@ Explanation:
 ```
 
 #### My submission:
-Runtime: 0 ms, faster than **100%** of Java online submissions for Group the People Given the Group Size They Belong To.
-Memory Usage: 34.3 MB, less than **100%** of Java online submissions for Group the People Given the Group Size They Belong To.
+Runtime: 0 ms, faster than **100%** of Java online submissions for Camelcase Matching.
+Memory Usage: 34.3 MB, less than **100%** of Java online submissions for Camelcase Matching.
 
