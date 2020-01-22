@@ -21,6 +21,6 @@ Output: [0,1,2,3]
 ```
 
 #### My submission:
-Runtime: 51 ms, faster than **100.00%** of Java online submissions for DI String Match.
-Memory Usage: 13.8 MB, less than **100.00%** of Java online submissions for DI String Match.
+Runtime: 51 ms, faster than **100.00%** of Python3 online submissions for DI String Match.
+Memory Usage: 13.8 MB, less than **100.00%** of Python3 online submissions for DI String Match.
 
