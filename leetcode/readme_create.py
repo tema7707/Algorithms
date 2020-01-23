@@ -1,3 +1,4 @@
+import functools
 import os
 
 class task:
@@ -82,6 +83,25 @@ for difficulty in ['easy', 'medium']:
     for name in tasks_group:
         t = task(difficulty, name)
         all_tasks.append(t)
+# Sort
+def cmpFunc(a, b):
+    if(a.difficulty < b.difficulty):
+        return 1
+    elif(a.difficulty > b.difficulty):
+        return -1
+    
+    am = float(list(a.memory.values())[0][:-1])
+    ar = float(list(a.runtime.values())[0][:-1])
+    bm = float(list(b.memory.values())[0][:-1])
+    br = float(list(b.runtime.values())[0][:-1])
+    if am + ar > bm + br:
+        return -1
+    elif am + ar < bm + br:
+        return 1
+    
+    return 0
+    
+all_tasks.sort(key=functools.cmp_to_key(cmpFunc))
 
 # Update README.md
 with open('../README.md', 'w') as f:
